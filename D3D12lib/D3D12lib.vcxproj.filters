@@ -60,6 +60,9 @@
     <ClInclude Include="Headers\LandAndWavesApp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Headers\LightWaves.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -98,10 +101,13 @@
     <ClCompile Include="Sources\GeometryGenerator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Headers\Waves.cpp">
+    <ClCompile Include="Sources\LandAndWavesApp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Sources\LandAndWavesApp.cpp">
+    <ClCompile Include="Sources\LightWaves.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Waves.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

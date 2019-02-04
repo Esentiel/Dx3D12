@@ -170,12 +170,14 @@
     <ClInclude Include="Headers\Utils.h" />
     <ClInclude Include="Headers\InitDirect3DApp.h" />
     <ClInclude Include="Headers\MathHelper.h" />
+    <ClInclude Include="Headers\LightWaves.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="Headers\UploadBuffer.h" />
     <ClInclude Include="Headers\Waves.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Sources\LightWaves.cpp" />
     <ClCompile Include="Sources\GeometryGenerator.cpp" />
     <ClCompile Include="Sources\LandAndWavesApp.cpp" />
     <ClCompile Include="Sources\ShapesApp.cpp" />
@@ -194,7 +196,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="Headers\Waves.cpp" />
+    <ClCompile Include="Sources\Waves.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
